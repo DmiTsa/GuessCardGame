@@ -1,0 +1,126 @@
+body {
+  background: center/cover no-repeat url(./img/cover.jpg);
+  font-family:'Courier New', Courier, monospace;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.header {
+  width: 800px;
+  margin: 20px 0;
+  border-radius: 10px;
+  background-color: antiquewhite;
+  text-align: center;
+  font-size: 26px;
+}
+
+.settings {
+  display: flex;
+  justify-content: center;
+  width: 800px;
+  margin: 20px 0;
+  border-radius: 10px;
+  background-color: antiquewhite;
+}
+
+.btn {
+  width: 250px;
+  height: 50px;
+  background-color: rgb(178, 215, 14);
+  margin: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight:bold;
+  text-align:center;
+
+}
+
+.info {
+  width: 800px;
+  border-radius: 10px;
+  margin: 20px 0;
+  background-color: antiquewhite;
+  text-align: center;
+  font-size: 26px;
+}
+
+.footer {
+  margin: 20px 0;
+  width: 800px;
+  height: 40px;
+  padding: 10px 0;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(22, 214, 12);
+  /* background-image: url('./img/nextLevel.png'); */
+  text-align: center;
+  font-size: 26px;
+}
+
+.reset {
+  margin: 20px 0;
+  width: 800px;
+  padding: 10px 0;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(201, 22, 28);
+  text-align: center;
+  font-size: 26px;
+}
+
+.field {
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  background-color: aquamarine;
+  padding: 10px 0;
+  margin-top: 10px;
+}
+
+.tile {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.tile_winner {
+  border-radius: 5px;
+  background-color: rgb(20, 228, 9);
+  background-image: url("./img/winner.png");
+}
+
+.tile_attempt {
+  border-radius: 5px;
+  background-color: rgb(12, 129, 172);
+  background-image: url("./img/attempt.png");
+}
+
+.tile_over {
+  border-radius: 5px;
+  background-color: rgb(247, 9, 9);
+  background-image: url("./img/gameover.jpg");
+}
+
+.tile_none {
+  border-radius: 5px;
+  background-color: rgb(58, 57, 57);
+  background-image: url("./img/none.png");
+}
+
+.tile_closed {
+  border-radius: 5px;
+  background-color: black;
+  background-image: url("./img/question.png");
+}
+
+.hidden {
+  display: none;
+}
